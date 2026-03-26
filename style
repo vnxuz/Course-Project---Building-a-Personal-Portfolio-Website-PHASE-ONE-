@@ -1,0 +1,27 @@
+/* Element selector */
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+/* Class selector */
+.container {
+    margin: 20px;
+}
+
+/* ID selector */
+#about {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Descendant selector */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Bonus (makes you look better) */
+a:hover {
+    color: blue;
+}
