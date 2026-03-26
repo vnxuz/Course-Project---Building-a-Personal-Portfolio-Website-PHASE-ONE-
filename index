@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Arie Drobizki</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <img src="me.jpg" alt="Picture of me" width="200">
+    <p>I am a student learning programming and web development...</p>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>Java</li>
+        <li>HTML & CSS</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Check out my work:</p>
+    <a href="https://github.com/yourusername" target="_blank">My GitHub</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Message:</label>
+        <textarea required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Arie</p>
+</footer>
+
+</body>
+</html>
+
+ 
+<!-- 
+Reflection:
+I think my design is clean and easy to use.
+One challenge I faced was spacing elements properly.
+-->
